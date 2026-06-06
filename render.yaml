@@ -1,0 +1,8 @@
+services:
+  - name: mindmate-server
+    env: node
+    branch: main
+    buildCommand: npm ci
+    startCommand: npm start
+    instanceType: free
+    region: oregon
